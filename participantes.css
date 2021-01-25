@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+header {
+  background-image: url("./Images/STARS.gif");
+  display: inline-flex;
+  width: 100%;
+  padding: 10px;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+}
+.volver {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regresar {
+  padding: 15px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  border: solid 2px black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.regresar:hover {
+  font-size: 18px;
+  color: blue;
+  border: solid 2px black;
+}
